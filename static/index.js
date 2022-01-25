@@ -344,8 +344,8 @@ function shareText(score) {
     }
     SubmitResults();
     if (score <= 49) return 'you suck';
-    if (score <= 99) return 'toilet is 2 blocks down the left';
-    if (score <= 149) return 'boy next door';
+    if (score <= 99) return 'boy next door';
+    if (score <= 149) return 'strip club is 2 blocks down the left';
     if (score <= 199) return "i'll show you whos the boss of the gym";
     return 'CHEATER';
 }
