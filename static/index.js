@@ -343,11 +343,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
-    return '人？';
+    if (score <= 49) return 'you suck';
+    if (score <= 99) return 'toilet is 2 blocks down the left';
+    if (score <= 149) return 'boy next door';
+    if (score <= 199) return "i'll show you whos the boss of the gym";
+    return 'CHEATER';
 }
 
 function toStr(obj) {
@@ -439,4 +439,4 @@ function click(index) {
     gameTapEvent(fakeEvent)
 }
 
-console.log("不修改，好嘛？乱传又有什么用呢？(ˉ▽ˉ；)...")
+console.log("(ˉ▽ˉ；)...")
